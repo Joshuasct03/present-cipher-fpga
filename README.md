@@ -108,12 +108,13 @@ docs/        → Report, FPGA images, simulation outputs
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Authors
 
-**Joshua Felix**
-**Muneera S**
-**Sooraj Subhash**
-B.Tech Electronics and Communication Engineering
-SCT College of Engineering
+**Joshua Felix**  
+**Muneera S**  
+**Sooraj Subhash**  
+
+B.Tech Electronics and Communication Engineering  
+Sree Chitra Thirunal College of Engineering (SCTCE)
 
 ---
