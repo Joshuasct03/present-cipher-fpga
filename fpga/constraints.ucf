@@ -1,0 +1,27 @@
+# ============================================================
+# Clock - 20 MHz onboard oscillator
+# ============================================================
+NET "clk"       LOC = "E10"  | IOSTANDARD = LVCMOS33;
+NET "clk"       TNM_NET = "clk";
+TIMESPEC "TS_clk" = PERIOD "clk" 50 ns HIGH 50%;
+
+# ============================================================
+# Inputs - DIP switches
+# ============================================================
+NET "rst_btn"   LOC = "B8"   | IOSTANDARD = LVCMOS33;   # SW22
+NET "start_btn" LOC = "D8"   | IOSTANDARD = LVCMOS33;   # SW23
+
+# ============================================================
+# Outputs - LEDs
+# LED7 = BIST pass
+# LED6 = Done
+# LED5-0 = Ciphertext top byte bits
+# ============================================================
+NET "led[7]"    LOC = "A8"   | IOSTANDARD = LVCMOS33;
+NET "led[6]"    LOC = "C8"   | IOSTANDARD = LVCMOS33;
+NET "led[5]"    LOC = "E8"   | IOSTANDARD = LVCMOS33;
+NET "led[4]"    LOC = "C7"   | IOSTANDARD = LVCMOS33;
+NET "led[3]"    LOC = "A6"   | IOSTANDARD = LVCMOS33;
+NET "led[2]"    LOC = "C6"   | IOSTANDARD = LVCMOS33;
+NET "led[1]"    LOC = "E6"   | IOSTANDARD = LVCMOS33;
+NET "led[0]"    LOC = "A5"   | IOSTANDARD = LVCMOS33;
